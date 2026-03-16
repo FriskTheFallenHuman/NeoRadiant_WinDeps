@@ -4,14 +4,14 @@ The winbuild folder contains all the sources needed to build the Win32/x64 depen
 
 There is a solution file for VC++ 2022:
 
-	Visual Studio 2022: msvc/darkradiant_windeps.sln
+	Visual Studio 2022/2026: msvc/neoradiant_windeps.sln
 
-The DarkRadiant_WinDeps folder contains three directories: w32deps, w64deps and winbuild.
+The NeoRadiant_WinDeps folder contains three directories: w32deps, w64deps and winbuild.
 The VC++ projects in the winbuild folder will place their binaries in the corresponding location 
 in the w32deps/w64deps folders, which is where you can pick them up and drop them into your
 DarkRadiant folder to compile the editor itself.
 
-== Compile Scripts (VC++ 2022) ==
+== Compile Scripts (VC++ 2022/2026) ==
 
 For VC++ 2022 you can use the shell script in the winbuild folder: Open a VC++ 2022 Developer Command Prompt and head to the
 winbuild directory, then call the batch file:
